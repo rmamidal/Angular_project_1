@@ -5,3 +5,9 @@
 .ng-invalid:not(form) {
     border-left: 5px solid #a94442;
 }
+
+/* Rating font size. */
+.rating {
+    font-size: 40px;
+    font-weight: bold;
+}

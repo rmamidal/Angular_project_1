@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './Component/page-not-found.component';
 import { SearchPipe } from "./Pipe/search.pipe";
 import { ApplicationRoutes } from './app.routes'
 import { CapitalisePipe } from "./Pipe/capitalise.pipe";
+import { HoverOverComponent } from "./directive/hover-over.directive";
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CapitalisePipe } from "./Pipe/capitalise.pipe";
     DetailsMovieComponent,
     PageNotFoundComponent,
     SearchPipe,
-    CapitalisePipe
+    CapitalisePipe,
+    HoverOverComponent
   ],
   imports: [
     BrowserModule,

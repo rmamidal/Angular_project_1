@@ -1,19 +1,19 @@
 <section id="Movie">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-lg-offset-3">
+            <div class="col-lg-10 col-lg-offset-1">
                 <!-- Show Movie Details-->
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                         <h3 class="panel-title">Movie Details Page</h3>
-                    </div>
+                    </div><!-- Panel Header-->
                     <div class="panel-body">
-                        <div> Movie ID: {{ detailsMovie.id }} </div> <br>
-                        <div> Movie Poster: <img [src]="detailsMovie.imageUrl" [alt]="detailsMovie.name" width="75" /></div> <br>
-                        <div> Movie Name: {{ detailsMovie.name }}</div> <br>
-                        <div> Movie Description: {{ detailsMovie.description}}</div> <br>
-                        <div> Movie Rating: {{ detailsMovie.movieRatings }}</div> <br>
-                    </div>
+                        <div> <b>Movie ID:</b><br/> {{ detailsMovie.id }} </div> <br>
+                        <div> <b>Movie Poster:</b><br/> <img [src]="detailsMovie.imageUrl" [alt]="detailsMovie.name" width="75" /></div> <br>
+                        <div> <b>Movie Name:</b><br/> {{ detailsMovie.name }}</div> <br>
+                        <div> <b>Movie Description:</b><br/> {{ detailsMovie.description}}</div> <br>
+                        <div> <b>Movie Rating:</b><br/><div class="rating"> {{ detailsMovie.rating }}</div></div> <br>
+                    </div><!-- Panel body-->
                     <div class="panel-footer">
                         <button type="button" class="btn btn-primary" (click)="goBack()">Go Back</button>
                     </div>

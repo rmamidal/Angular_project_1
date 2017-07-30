@@ -4,7 +4,7 @@ export class Movie {
     imageUrl: string;
     name: string;
     description: string;
-    rating: number;
+    rating: string;
     releaseDate: string;
 }
 
